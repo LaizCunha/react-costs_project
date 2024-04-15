@@ -3,7 +3,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Home from './components/pages/Home';
 import Company from './components/pages/Company';
 import Contact from './components/pages/Contact';
-import NewProjetc from './components/pages/NewProject';
+import NewProject from './components/pages/NewProject';
 import Projects from './components/pages/Projects';
 
 import Container from './components/layout/Container';
@@ -19,7 +19,7 @@ function App() {
           <Route exact path='/' element={<Home />}/>
           <Route path='/company' element={<Company />}/>
           <Route path='/contact' element={<Contact />}/>
-          <Route path='/newproject' element={<NewProjetc/>}/>
+          <Route path='/newproject' element={<NewProject/>}/>
           <Route path='/projects' element={<Projects/>}/>
         </Routes>
       </Container>
