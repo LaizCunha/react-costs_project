@@ -26,13 +26,6 @@ function ProjectForm({ handleSubmit, btnText, projectData}) {
       handleSubmit(project)     
     }
 
-    function handleChangeNome(e) {
-      setProject({
-        ...project, 
-        name: e.target.value
-      });   
-    }
-
     function handleChangeCategory(e) {
       setProject({...project, 
         category: {
