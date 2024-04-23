@@ -1,6 +1,5 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './Message.css';
-import { useEffect } from 'react';
 
 function Message({ type, msg }) {
 
