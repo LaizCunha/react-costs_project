@@ -8,8 +8,8 @@ function Select({text, name, otpions, handleOnChange, value}) {
         name={name} 
         id={name} 
         onChange={handleOnChange} 
-        value={value || ''}>
-          
+        value={value || ''}
+      >          
         <option>Selecione uma opção</option>
         {otpions.map((option) => (
           <option value={option.id} key={option.id}>{option.name}</option>
